@@ -1,0 +1,17 @@
+langchain
+langchain_community 
+langchain_core
+langchain_huggingface 
+huggingface_hub
+pinecone
+langchain_pinecone
+langserve
+fastapi
+uvicorn
+sse_starlette
+python-dotenv
+pypdf
+langchainhub
+streamlit
+langchain-chroma>=0.1.2
+faiss-cpu
