@@ -21,10 +21,10 @@ prompt= ChatPromptTemplate.from_messages(
     ]
 )
 
-# question = itemgetter("query")
+question = itemgetter("query")
 
-# st.title('Langchain Demo with Ollama')
-# input_text = st.text_input("Ask me anything...")
+st.title('Langchain Demo with Ollama')
+input_text = st.text_input("Ask me anything...")
 
 # #output parser
 
@@ -34,8 +34,8 @@ Chain = prompt | llm | output_parser
 response = Chain.invoke('hi ! my name ia bilal')
 print(response)
 
-# if input_text:
+if input_text:
 
-    # st.write(response)
+    st.write(response)
     
     

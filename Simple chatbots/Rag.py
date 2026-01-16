@@ -22,8 +22,8 @@ prompt= ChatPromptTemplate.from_messages(
 
 question = itemgetter("query")
 
-# st.title('Langchain Demo with HuggingFace')
-# input_text = st.text_input("Ask me anything...")
+st.title('Langchain Demo with HuggingFace')
+input_text = st.text_input("Ask me anything...")
 
 #output parser
 
@@ -34,5 +34,5 @@ query = "What is the history of the Eiffel Tower?"
 response = Chain.invoke({"query": query})
 print(response)
 
-# if input_text:
-#     st.write(Chain.invoke({"query": input_text}))
+if input_text:
+    st.write(Chain.invoke({"query": input_text}))
