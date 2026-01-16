@@ -43,7 +43,6 @@ Specialized AI assistants for research, web search, and data analysis.
 - **Rag_web_search.ipynb** - RAG system integrated with web search capabilities
 - **Skeleton of Thoughts.ipynb** - Structured thinking framework for complex reasoning
 - **SQL_Research_Assistent.ipynb** - Research assistant with SQL database integration
-- **requirements.txt** - Dependencies for research assistant tools
 
 ### 💬 Simple Chatbots
 
